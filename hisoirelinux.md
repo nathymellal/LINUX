@@ -1,7 +1,7 @@
 # LINUX 
 *Linux ou GNU/Linux est une famille de systèmes d'exploitation open source de type Unix fondé sur le noyau Linux.*
 
-## Histoire de Linux :small_red_triangle_down:
+## Histoire de Linux :small_red_triangle:
 
 - **1991** : Linus T. publie un message célèbre - "HELLO TOUT LE MONDE DE LA SORTIE .." et publie le premier code Linux ( création de Linux )
 - **1992** : Linus privilèges linux sous la GPL une décision importante qui contribuera au succès dans les années à venir.
