@@ -2,6 +2,108 @@
 
 ## Architecture_Linux :small_red_triangle:
 
+```
+\
+├── bin
+|   ├── cd
+|   ├── nano
+|   ├── mv
+|   └── ...      //contient les commandes de LINUX
+|
+├── home
+|   ├── lost+found     // ne peut pas être ouvert
+|   └── osboxes        // nom de l'utilisateur
+|       ├── Desktop
+|       ├── Documents
+|       └── ...        // contient fichiers perso du user
+|
+├── root  // répertoire admin système
+|
+├── sys   // fonctionnalité système
+|   ├── block
+|   ├── bus
+|   ├── class
+|   ├── dev
+|   ├── device
+|   ├── firmware
+|   ├── fs
+|   ├── hypervisor
+|   ├── kernel
+|   ├── module
+|   └── power
+|
+├── boot   // système pour le lancement
+|   ├── grub
+|   └── ... -amd64
+|
+├── mnt
+|
+├── run    // fichiers pour l'execution
+|   ├── alsa
+|   ├── cup
+|   └── ...
+|
+├── tmp
+|   └── ...  // Fichiers temporaires
+|
+├── dev      //périphériques
+|   ├── stdin
+|   ├── stdout
+|   ├── cdrom
+|   └── ...
+|
+├── usr
+|   ├── bin
+|   ├── games
+|   ├── include
+|   ├── lib
+|   ├── lib32
+|   ├── lib64
+|   ├── libexec
+|   ├── libx32
+|   ├── local
+|   ├── sbin
+|   ├── share
+|   └── src
+|
+├── etc   //configuration système
+|   ├── sudoers
+|   ├── sudoers.d
+|   └── ...
+|
+├── proc
+|   └── ... // tous les fichiers temp de processus
+|
+└── var // données variables
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Accèdons à notre terminal et on effectue un **ls -a** : 
 
 - Vidéos : Répertoire qui stocke les vidéos.
