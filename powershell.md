@@ -79,17 +79,11 @@ PS /home/user> [byte] 254
 
 - `Get-Help nomdelacommande` permet d’avoir des informations sur une commande
 
-  **Exemple:** 
-  
-  `Get-Help Read-Host` ouvrira un "menu" dans lequel on aura des informations sur la commande `Read-Host`
-  
+ 
 - `Read-Host` permet de récupérer des informations (que l'utilisateur pourra rentrer directement dans la console).
 *Fonction qui permet de saisir une chaîne de caractères et de l’enregistrer dans une variable*
 
-  **Exemple:**
-  
-  ![Read-Host image](./Ressources/test_de_Read-Host.jpg)
-  
+  *
   `$val` est une variable.
   
   On lui assigne une valeur qui est une chaine de caractère que l'utilisateur va rentrer.
@@ -102,8 +96,7 @@ PS /home/user> [byte] 254
 
 - `Get-Location` permet de savoir où l'on se trouve.
 
-  **Exemple:**
-
+  
   ```powershell
   PS /home/user> Get-Location
 
